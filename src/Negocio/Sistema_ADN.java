@@ -7,7 +7,7 @@ package Negocio;
 
 /**
  *
- * @author sus nombres
+ * @author Jesus cristancho
  */
 public class Sistema_ADN {
 
@@ -15,9 +15,14 @@ public class Sistema_ADN {
     private char[] secuencia_individuo2;
 
     public Sistema_ADN() {
+        char[] secuencia_individuo1 = null;
+        char[] secuencia_individuo2 = null;
     }
 
     public Sistema_ADN(String adn1, String adn2) {
+        char[] secuencia_individuo1 = adn1.toCharArray();
+        char[] secuencia_individuo2 = adn2.toCharArray();
+        
     }
 
     /**
